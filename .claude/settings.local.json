@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npx @angular/cli@18:*)",
+      "Bash(mvn:*)",
+      "Bash(npm start)",
+      "Bash(java:*)"
+    ],
+    "deny": []
+  }
+}

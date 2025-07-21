@@ -1,0 +1,74 @@
+#################################
+# 🔧 OS-Specific
+#################################
+.DS_Store
+Thumbs.db
+
+#################################
+# 🔧 IDEs and Editors
+#################################
+.idea/
+*.iml
+.vscode/
+*.sw?
+*.sublime*
+
+#################################
+# ⚙️ Java / Spring Boot
+#################################
+# Maven
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+/*.log
+
+# Gradle (if used)
+/build/
+/.gradle/
+/out/
+
+# IntelliJ
+*.iws
+*.ipr
+*.iml
+/modules.xml
+/.classpath
+/.project
+/.settings/
+
+# Environment / secrets
+.env
+*.key
+*.pem
+*.jks
+
+#################################
+# 🌐 Angular / Node.js Frontend
+#################################
+node_modules/
+dist/
+.tmp/
+.angular/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json # (Optional: if you prefer clean clones)
+coverage/
+.sass-cache/
+.eslintcache
+
+# Angular build output
+/frontend/dist/
+/frontend/node_modules/
+
+#################################
+# ⚠️ Misc
+#################################
+*.bak
+*.tmp
+*.log
+*.pid
+*.seed
+*.pid.lock
